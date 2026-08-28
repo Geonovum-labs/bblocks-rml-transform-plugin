@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bbplugin-rml"
+version = "0.1.0"
+description = "OGC Building Blocks transform plugin for RML JSON-to-RDF mappings"
+requires-python = ">=3.10"
+dependencies = [
+  "jsonpath-ng>=1.6.1",
+  "rdflib>=7.0.0"
+]
+
+[tool.setuptools]
+packages = ["bbplugin_rml"]
