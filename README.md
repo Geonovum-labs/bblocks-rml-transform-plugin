@@ -27,4 +27,4 @@ plugins:
 
 The implementation supports the RML/R2RML features used by the example mapping: JSONPath logical-source iterators, references, templates, constants, classes, datatypes, and parent triples maps with join conditions. Output media types supported by the plugin are `text/turtle`, `application/n-triples`, and `application/ld+json`.
 
-This plugin is intentionally isolated from the register sources. The existing `otel-prov.rml.ttl` can be used as the transform script via `ref`, but this package does not alter it or any existing building block.
+
